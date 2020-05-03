@@ -6,6 +6,13 @@
     letter-spacing: 4px;
 }
 
+.contacts {
+    margin: 28px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 @media only screen and (max-width: 768px){
     .name {
         text-align: center;
