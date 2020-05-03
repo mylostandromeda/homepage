@@ -2,6 +2,9 @@
     background: #f2d820;
 }
 
+.page {
+    border: 20px solid #000000;
+}
 
 .avatar {
     width: 100%;
