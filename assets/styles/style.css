@@ -12,6 +12,10 @@
     justify-content: space-between;
 }
 
+.contacts a {
+    background: transparent;
+}
+
 h2 {
     background: #f2d820;
     padding-left: 10px;
