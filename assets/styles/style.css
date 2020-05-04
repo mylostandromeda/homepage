@@ -5,6 +5,21 @@ body {
 a {
     background: #f2d820;
     color: #000000;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+strong {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+ul li {
+    font-family: 'Work Sans', sans-serif;
 }
 
 .main {
@@ -14,7 +29,7 @@ a {
 .page {
     border: 20px solid #000000;
     transform: rotateY(90deg);
-    transition: all 2s ease;
+    transition: transform 2s ease;
 }
 
 .page_open {
@@ -42,6 +57,36 @@ a {
 h2 {
     background: #f2d820;
     padding-left: 10px;
+}
+
+.quarantine {
+    background: transparent;
+    font-weight: bolder;
+}
+
+.description::before {
+    display: none;
+}
+
+ul li::before {
+    content: '➥';
+}
+
+li.highlighted {
+    background: rgba(242,216,32, 0.6);
+}
+
+.tags.small.bulleted {
+    font-size: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.tag {
+    font-size: 14px;
+    line-height: 20px;
+}
+.tags.bulleted .tag:not(:last-child):after {
+    content: '❘';
 }
 
 @media only screen and (max-width: 768px){
