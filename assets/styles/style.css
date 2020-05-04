@@ -14,7 +14,7 @@ a {
 .page {
     border: 20px solid #000000;
     transform: rotateY(90deg);
-    transition: all 2s ease;
+    transition: transform 2s ease;
 }
 
 .page_open {
@@ -42,6 +42,17 @@ a {
 h2 {
     background: #f2d820;
     padding-left: 10px;
+}
+.tags.small.bulleted {
+    font-size: 0;
+}
+
+.tag {
+    font-size: 14px;
+    line-height: 20px;
+}
+.tags.bulleted .tag:not(:last-child):after {
+    content: '❘';
 }
 
 @media only screen and (max-width: 768px){
