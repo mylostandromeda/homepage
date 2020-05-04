@@ -58,6 +58,16 @@ h2 {
     background: #f2d820;
     padding-left: 10px;
 }
+
+.quarantine {
+    background: transparent;
+    font-weight: bolder;
+}
+
+li.highlighted {
+    background: rgba(242,216,32, 0.6);
+}
+
 .tags.small.bulleted {
     font-size: 0;
     font-family: 'Work Sans', sans-serif;
