@@ -64,6 +64,14 @@ h2 {
     font-weight: bolder;
 }
 
+.description::before {
+    display: none;
+}
+
+ul li::before {
+    content: '➥';
+}
+
 li.highlighted {
     background: rgba(242,216,32, 0.6);
 }
