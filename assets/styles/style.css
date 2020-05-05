@@ -1,97 +1,100 @@
 body {
-    perspective: 100vw;
+  perspective: 100vw;
 }
 
 a {
-    background: #f2d820;
-    color: #000000;
-    font-family: 'Work Sans', sans-serif;
+  background: #f2d820;
+  color: #000;
+  font-family: 'Work Sans', sans-serif;
 }
 
-h3,h5,h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+h3,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 strong {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 ul li {
-    font-family: 'Work Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .main {
-    background: #f2d820;
-    margin-bottom: 0 !important;
+  background: #f2d820;
+  margin-bottom: 0 !important;
 }
 
 .page {
-    border: 20px solid #000000;
-    transform: rotateY(90deg);
-    transition: transform 2s ease;
+  border: 20px solid #000;
+  transform: rotateY(90deg);
+  transition: transform 2s ease;
 }
 
 .page_open {
-    transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 .avatar {
-    width: 100%;
+  width: 100%;
 }
 
 .name {
-    letter-spacing: 4px;
+  letter-spacing: 4px;
 }
 
 .contacts {
-    margin: 28px 0 0;
-    display: flex;
-    justify-content: space-between;
+  margin: 28px 0 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts a {
-    background: transparent;
+  background: transparent;
 }
 
 h2 {
-    background: #f2d820;
-    padding-left: 10px;
+  background: #f2d820;
+  padding-left: 10px;
 }
 
 .quarantine {
-    background: transparent;
-    font-weight: bolder;
+  background: transparent;
+  font-weight: bolder;
 }
 
 .description::before {
-    display: none;
+  display: none;
 }
 
 ul li::before {
-    content: '➥';
+  content: '➥';
 }
 
 li.highlighted {
-    background: rgba(242,216,32, 0.6);
+  background: rgba(242, 216, 32, 0.6);
 }
 
 .tags.small.bulleted {
-    font-size: 0;
-    font-family: 'Work Sans', sans-serif;
+  font-size: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .tag {
-    font-size: 14px;
-    line-height: 20px;
-}
-.tags.bulleted .tag:not(:last-child):after {
-    content: '❘';
+  font-size: 14px;
+  line-height: 20px;
 }
 
-@media only screen and (max-width: 768px){
-    .name {
-        text-align: center;
-    }
+.tags.bulleted .tag:not(:last-child)::after {
+  content: '❘';
+}
+
+@media only screen and (max-width: 768px) {
+  .name {
+    text-align: center;
+  }
 }
