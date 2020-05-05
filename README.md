@@ -7,3 +7,4 @@ My very own personal website. Basically this is just a résumé.
 
 [GitHub Pages](https://mylostandromeda.github.io/homepage/)
 
+🧙Hocus-pocus!
